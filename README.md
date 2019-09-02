@@ -26,11 +26,11 @@ Run ``python3.6 manage.py runserver`` and view live on ``Localhost:8000`` in you
 
 ## Authors
 
-* **Ian Kipkoech** - *Initial work* - [InstaGrama](https://github.com/eyern/insta-clone)
+* **Ian Kipkoech** - *Initial work* - [InstaG](https://github.com/eyern/insta-clone)
 
 ## License
 
-This project is licensed under the MIT License 
+This project is licensed under the MIT License. 
 
 ## Copyright
 copyright (c) Ian Kipkoech 2019
