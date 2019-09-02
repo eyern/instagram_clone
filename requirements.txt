@@ -11,7 +11,7 @@ pytz==2018.5
 whitenoise==4.0
 sqlparse==0.3.0
 django-registration==2.4.1
-Collapse
+
 
 
 
