@@ -1,6 +1,6 @@
 # Ian Kipkoech
 
-## Instagram Clone
+## Instagram-Clone
 This is a replica of the popular social site instagram that I built with Python Django Framework.
 
 ## Getting Started
