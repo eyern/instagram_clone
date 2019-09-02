@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 class ImageTestClass(TestCase):
 
     def setUp(self):
-        self.image = Image(image ='imageurl', image_name='nature', image_caption='wowo', likes=200, comments='wonderful')
+        self.image = Image(image ='imageurl', image_name='culture', image_caption='designer', likes=150, comments='awesome')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.image, Image))
@@ -27,8 +27,8 @@ class ImageTestClass(TestCase):
 class ProfileTestClas(TestCase):
 
     def setUp(self):
-        user = User(username='newton')
-        self.profile = Profile(profile_photo='yes we can', user_bio='very awesome', last_update='date', user=user)
+        user = User(username='e.y.e.r.n')
+        self.profile = Profile(profile_photo='bad things happen to good people', user_bio='Jah know His people', last_update='date', user=user)
 
     def test_instance(self):
         self.assertTrue(isinstance(self.profile, Profile))
