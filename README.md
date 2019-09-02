@@ -30,6 +30,8 @@ Run ``python3.6 manage.py runserver`` and view live on ``Localhost:8000`` in you
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License 
 
+## Copyright
+copyright (c) Ian Kipkoech 2019
 
