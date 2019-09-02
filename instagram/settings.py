@@ -31,15 +31,15 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+     'my_insta',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'my_insta.apps.MyInstaConfig',
     'bootstrap3',
-    'tinymce'
+    
 ]
 
 MIDDLEWARE = [
@@ -105,11 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 #Email cinfigurations
-from decouple import config
-EMAIL_HOST = config('EMAIL_HOST')
-EMAIL_PORT = config('EMAIL_PORT')
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
@@ -134,7 +130,6 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(PROJECT_ROOT, 'static'),)
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 import dj_database_url
 db_from_env=dj_database_url.config(conn_max_age=500)
